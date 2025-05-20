@@ -26,4 +26,4 @@ Projeto desenvolvido para o Checkpoint 03 da disciplina de Desenvolvimento Front
 ## 🔗 Links
 
 - [🔗 Repositório no GitHub](https://github.com/matheusvictorio/Check-Point-03---Front-End.git)
-- [🌐 Site publicado no GitHub Pages](https://seu-usuario.github.io/checkpoint03-flexbox)
+- [🌐 Site publicado no GitHub Pages](https://matheusvictorio.github.io/Check-Point-03---Front-End/flex-layout.html)
