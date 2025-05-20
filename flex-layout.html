@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinharia Agnello</title>
+    <link rel="stylesheet" href="css/flex-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Vinharia Agnello</div>
+      <nav class="menu">
+        <a href="#destaque">Início</a>
+        <a href="#cards">Vinhos</a>
+        <a href="#consultoria">Consultoria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <!-- Seção destaque com imagem banner -->
+    <section class="destaque" id="destaque">
+      <img class="banner-img" src="assets/img1.jpg" alt="Banner de vinhos" />
+      <h2>Bem-vindo à Vinharia Agnello</h2>
+      <p>
+        Descubra os vinhos perfeitos com curadoria personalizada, tradição e
+        sofisticação.
+      </p>
+    </section>
+
+    <!-- Cards com imagens de vinhos -->
+    <section class="cards" id="cards">
+      <h2 class="cards-title">Vinhos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/img2.png" alt="Vinho Tinto" />
+          <h3>Vinho Tinto</h3>
+          <p>Intenso, encorpado e ideal para carnes vermelhas.</p>
+        </div>
+        <div class="card">
+          <img src="assets/img3.webp" alt="Vinho Branco" />
+          <h3>Vinho Branco</h3>
+          <p>Refrescante e suave, ótimo com frutos do mar.</p>
+        </div>
+        <div class="card">
+          <img src="assets/img4.jpg" alt="Vinho Rosé" />
+          <h3>Rosé</h3>
+          <p>Delicado e versátil, perfeito para dias ensolarados.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consultoria -->
+    <section class="consultoria" id="consultoria">
+      <h2>Consultoria Especializada</h2>
+      <p>
+        O Sr. Agnello e sua equipe oferecem consultoria personalizada para te
+        ajudar a escolher o vinho ideal para qualquer ocasião — harmonizações,
+        eventos, presentes e muito mais.
+      </p>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+      <h2>Fale Conosco</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Seu nome" required />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="seuemail@exemplo.com"
+          required
+        />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea
+          id="mensagem"
+          rows="5"
+          placeholder="Digite sua mensagem..."
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>
+        &copy; 2025 Vinharia Agnello — Tradição e excelência no mundo dos
+        vinhos.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+/* Reset e fonte base */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fdfaf6;
+  color: #2c2c2c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b1d1d;
+  padding: 20px 40px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #d4af37;
+}
+
+.menu a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #d4af37;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+/* Seção de destaque */
+.destaque {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #fdf6ee, #f0e2d0);
+}
+
+.destaque h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.destaque p {
+  font-size: 1.1rem;
+}
+
+/* Seção Cards de vinhos */
+.cards-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.cards-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 40px 40px;
+  max-width: 1200px; /* Define largura máxima */
+  margin: 0 auto; /* Centraliza a seção */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  width: 280px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.cards img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Seção de Consultoria */
+.consultoria {
+  background-color: #f8f1eb;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.consultoria h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.consultoria p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Seção de Contato */
+.contato {
+  background-color: #f0e2d0;
+  padding: 50px 20px;
+}
+
+.contato h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contato form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contato input,
+.contato textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.contato button {
+  padding: 12px;
+  background-color: #4b1d1d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contato button:hover {
+  background-color: #742626;
+}
+
+/* Imagens e Banner */
+.banner-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #4b1d1d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
